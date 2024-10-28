@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class TransferStation extends Station {
-    public ArrayList<Station> otherStations;
+    public ArrayList<Station> otherStations; // Make public for Project1_Tester
 
     public TransferStation(String line_color, String station_name){
         super(line_color, station_name);
