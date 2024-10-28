@@ -46,7 +46,7 @@ public class Station {
     }
 
 
-    // Connect 
+    // Connect two stations together as primaries 
     public void connect(Station other) {
         if (other == null) {
             return;
